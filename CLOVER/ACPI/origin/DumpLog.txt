@@ -1,0 +1,128 @@
+310:349  44:630  Found UEFI Acpi 2.0 RSDP at 6EA97000
+310:349  0:000  Saving ACPI tables from RSDP 6EA97000 to EFI\CLOVER\ACPI\origin ...
+310:349  0:000   6EA97000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36 -> RSDP.aml
+310:382  0:032    (Xsdt: 6EA970B0, Rsdt: 6EA97028)
+310:382  0:000    6EA970B0: 'XSDT', 'A M I', Rev: 1, Len: 220 -> XSDT.aml
+310:402  0:019    6EA97028: 'RSDT', 'A M I', Rev: 1, Len: 128 -> RSDT.aml
+310:422  0:020    Tables in Xsdt: 23
+310:422  0:000    0. 6EADCC20: 'FACP', 'A M I', Rev: 6, Len: 276 -> FACP.aml
+310:443  0:020        (Dsdt: 6EA97218, Facs: 6F1FD080, XDsdt: 6EA97218, XFacs: 0)
+310:443  0:000        6EA97218: 'DSDT', 'A M I', Rev: 2, Len: 285186 -> DSDT.aml
+310:507  0:064        6F1FD080: 'FACS', Ver: 2, Len: 64 -> FACS.aml
+310:529  0:021    1. 6EADCD38: 'APIC', 'A M I', Rev: 4, Len: 244 -> APIC.aml
+310:551  0:022    2. 6EADCE30: 'FPDT', 'A M I', Rev: 1, Len: 68 -> FPDT.aml
+310:573  0:022    3. 6EADCE78: 'FIDT', 'A M I', Rev: 1, Len: 156 -> FIDT.aml
+310:596  0:023    4. 6EADCF18: 'MCFG', 'A M I', Rev: 1, Len: 60 -> MCFG.aml
+310:618  0:022    5. 6EADCF58: 'SSDT', 'SataTabl', Rev: 1, Len: 888 -> SSDT-0-SataTabl.aml
+310:640  0:022    6. 6EADD2D0: 'SSDT', 'CpuSsdt', Rev: 2, Len: 6101 -> SSDT-1-CpuSsdt.aml (Found hidden SSDT 7 pcs)
+310:661  0:020        * 6EA32418: 'SSDT', 'Cpu0Ist', Rev: 2, Len: 1470  53 53 44 54 BE 05 00 00 02 D2 50 6D 52 65 66 00 Internal length = 1470 -> SSDT-x1_0-Cpu0Ist.aml
+310:682  0:021        * 6EA2B018: 'SSDT', 'ApIst', Rev: 2, Len: 3825  53 53 44 54 F1 0E 00 00 02 ED 50 6D 52 65 66 00 Internal length = 3825 -> SSDT-x1_1-ApIst.aml
+310:703  0:021        * 6EA2A018: 'SSDT', 'Cpu0Cst', Rev: 2, Len: 1024  53 53 44 54 00 04 00 00 02 D9 50 6D 52 65 66 00 Internal length = 1024 -> SSDT-x1_2-Cpu0Cst.aml
+310:724  0:020        * 6EA2A698: 'SSDT', 'ApCst', Rev: 2, Len: 778  53 53 44 54 0A 03 00 00 02 E9 50 6D 52 65 66 00 Internal length = 778 -> SSDT-x1_3-ApCst.aml
+310:745  0:021        * 6A80CE98: 'SSDT', 'Cpu0Hwp', Rev: 2, Len: 283  53 53 44 54 1B 01 00 00 02 61 50 6D 52 65 66 00 Internal length = 283 -> SSDT-x1_4-Cpu0Hwp.aml
+310:766  0:020        * 6A80E418: 'SSDT', 'ApHwp', Rev: 2, Len: 791  53 53 44 54 17 03 00 00 02 E3 50 6D 52 65 66 00 Internal length = 791 -> SSDT-x1_5-ApHwp.aml
+310:788  0:022        * 6A806018: 'SSDT', 'HwpLvt', Rev: 2, Len: 1828  53 53 44 54 24 07 00 00 02 CA 50 6D 52 65 66 00 Internal length = 1828 -> SSDT-x1_6-HwpLvt.aml
+310:809  0:021  
+310:809  0:000    7. 6EADEAA8: 'MSDM', 'A M I', Rev: 3, Len: 85 -> MSDM.aml
+310:830  0:021    8. 6EADEB00: 'SSDT', 'SaSsdt', Rev: 2, Len: 6292 -> SSDT-2-SaSsdt.aml
+310:852  0:021    9. 6EAE0398: 'SSDT', 'PegSsdt', Rev: 2, Len: 9356 -> SSDT-3-PegSsdt.aml
+310:873  0:021    10. 6EAE2828: 'UEFI', 'A M I', Rev: 1, Len: 72 -> UEFI.aml
+310:894  0:020    11. 6EAE2870: 'SSDT', 'PerfTune', Rev: 2, Len: 1418 -> SSDT-4-PerfTune.aml
+310:915  0:021    12. 6EAE2E00: 'LPIT', 'A M I', Rev: 1, Len: 92 -> LPIT.aml
+310:936  0:021    13. 6EAE2E60: 'SSDT', 'PtidDevc', Rev: 2, Len: 6696 -> SSDT-5-PtidDevc.aml
+310:958  0:022    14. 6EAE4888: 'DBGP', 'A M I', Rev: 1, Len: 52 -> DBGP.aml
+310:980  0:021    15. 6EAE48C0: 'DBG2', 'A M I', Rev: 0, Len: 84 -> DBG2.aml
+311:001  0:021    16. 6EAE4918: 'SSDT', 'ADebTabl', Rev: 2, Len: 324 -> SSDT-6-ADebTabl.aml
+311:023  0:021    17. 6EAE4A60: 'SSDT', 'SgPeg', Rev: 2, Len: 174 -> SSDT-7-SgPeg.aml
+311:045  0:021    18. 6EAE4B10: 'DMAR', 'EDK2', Rev: 1, Len: 168 -> DMAR.aml
+311:066  0:021    19. 6EAE4BB8: 'TPM2', 'A M I', Rev: 4, Len: 52 -> TPM2.aml
+311:088  0:021    20. 6EAE4BF0: 'BGRT', 'A M I', Rev: 1, Len: 56 -> BGRT.aml
+311:109  0:021    21. 6EAE4C28: 'SSDT', 'OptTabl', Rev: 1, Len: 7901 -> SSDT-8-OptTabl.aml
+311:131  0:022    22. 6EAE6B08: 'WSMT', 'A M I', Rev: 1, Len: 40 -> WSMT.aml
+311:153  0:022    Tables in Rsdt: 23
+311:153  0:000    0. 6EA97190: 'FACP', 'A M I', Rev: 2, Len: 132 -> RSDT-FACP.aml
+311:185  0:031        (Dsdt: 6EA97218, Facs: 6F1FD040)
+311:185  0:000        6EA97218: 'DSDT', 'A M I', Rev: 2, Len: 285186
+311:189  0:004        6F1FD040: 'FACS', Ver: 0, Len: 64 -> RSDT-FACS.aml
+311:211  0:021    1. 6EADCD38: 'APIC', 'A M I', Rev: 4, Len: 244
+311:211  0:000    2. 6EADCE30: 'FPDT', 'A M I', Rev: 1, Len: 68
+311:211  0:000    3. 6EADCE78: 'FIDT', 'A M I', Rev: 1, Len: 156
+311:211  0:000    4. 6EADCF18: 'MCFG', 'A M I', Rev: 1, Len: 60
+311:211  0:000    5. 6EADCF58: 'SSDT', 'SataTabl', Rev: 1, Len: 888
+311:211  0:000    6. 6EADD2D0: 'SSDT', 'CpuSsdt', Rev: 2, Len: 6101
+311:211  0:000    7. 6EADEAA8: 'MSDM', 'A M I', Rev: 3, Len: 85
+311:211  0:000    8. 6EADEB00: 'SSDT', 'SaSsdt', Rev: 2, Len: 6292
+311:211  0:000    9. 6EAE0398: 'SSDT', 'PegSsdt', Rev: 2, Len: 9356
+311:211  0:000    10. 6EAE2828: 'UEFI', 'A M I', Rev: 1, Len: 72
+311:211  0:000    11. 6EAE2870: 'SSDT', 'PerfTune', Rev: 2, Len: 1418
+311:211  0:000    12. 6EAE2E00: 'LPIT', 'A M I', Rev: 1, Len: 92
+311:211  0:000    13. 6EAE2E60: 'SSDT', 'PtidDevc', Rev: 2, Len: 6696
+311:211  0:000    14. 6EAE4888: 'DBGP', 'A M I', Rev: 1, Len: 52
+311:211  0:000    15. 6EAE48C0: 'DBG2', 'A M I', Rev: 0, Len: 84
+311:211  0:000    16. 6EAE4918: 'SSDT', 'ADebTabl', Rev: 2, Len: 324
+311:211  0:000    17. 6EAE4A60: 'SSDT', 'SgPeg', Rev: 2, Len: 174
+311:211  0:000    18. 6EAE4B10: 'DMAR', 'EDK2', Rev: 1, Len: 168
+311:211  0:000    19. 6EAE4BB8: 'TPM2', 'A M I', Rev: 4, Len: 52
+311:211  0:000    20. 6EAE4BF0: 'BGRT', 'A M I', Rev: 1, Len: 56
+311:211  0:000    21. 6EAE4C28: 'SSDT', 'OptTabl', Rev: 1, Len: 7901
+311:211  0:000    22. 6EAE6B08: 'WSMT', 'A M I', Rev: 1, Len: 40
+311:211  0:000  Found UEFI Acpi 1.0 RSDP at 6EA97000
+311:211  0:000  Printing ACPI tables from RSDP 6EA97000 ...
+311:211  0:000   6EA97000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+311:211  0:000    (Xsdt: 6EA970B0, Rsdt: 6EA97028)
+311:211  0:000    6EA970B0: 'XSDT', 'A M I', Rev: 1, Len: 220
+311:211  0:000    6EA97028: 'RSDT', 'A M I', Rev: 1, Len: 128
+311:211  0:000    Tables in Xsdt: 23
+311:211  0:000    0. 6EADCC20: 'FACP', 'A M I', Rev: 6, Len: 276
+311:211  0:000        (Dsdt: 6EA97218, Facs: 6F1FD080, XDsdt: 6EA97218, XFacs: 0)
+311:211  0:000        6EA97218: 'DSDT', 'A M I', Rev: 2, Len: 285186
+311:216  0:004        6F1FD080: 'FACS', Ver: 2, Len: 64
+311:216  0:000    1. 6EADCD38: 'APIC', 'A M I', Rev: 4, Len: 244
+311:216  0:000    2. 6EADCE30: 'FPDT', 'A M I', Rev: 1, Len: 68
+311:216  0:000    3. 6EADCE78: 'FIDT', 'A M I', Rev: 1, Len: 156
+311:216  0:000    4. 6EADCF18: 'MCFG', 'A M I', Rev: 1, Len: 60
+311:216  0:000    5. 6EADCF58: 'SSDT', 'SataTabl', Rev: 1, Len: 888
+311:216  0:000    6. 6EADD2D0: 'SSDT', 'CpuSsdt', Rev: 2, Len: 6101
+311:216  0:000    7. 6EADEAA8: 'MSDM', 'A M I', Rev: 3, Len: 85
+311:216  0:000    8. 6EADEB00: 'SSDT', 'SaSsdt', Rev: 2, Len: 6292
+311:216  0:000    9. 6EAE0398: 'SSDT', 'PegSsdt', Rev: 2, Len: 9356
+311:216  0:000    10. 6EAE2828: 'UEFI', 'A M I', Rev: 1, Len: 72
+311:216  0:000    11. 6EAE2870: 'SSDT', 'PerfTune', Rev: 2, Len: 1418
+311:216  0:000    12. 6EAE2E00: 'LPIT', 'A M I', Rev: 1, Len: 92
+311:216  0:000    13. 6EAE2E60: 'SSDT', 'PtidDevc', Rev: 2, Len: 6696
+311:216  0:000    14. 6EAE4888: 'DBGP', 'A M I', Rev: 1, Len: 52
+311:216  0:000    15. 6EAE48C0: 'DBG2', 'A M I', Rev: 0, Len: 84
+311:216  0:000    16. 6EAE4918: 'SSDT', 'ADebTabl', Rev: 2, Len: 324
+311:216  0:000    17. 6EAE4A60: 'SSDT', 'SgPeg', Rev: 2, Len: 174
+311:216  0:000    18. 6EAE4B10: 'DMAR', 'EDK2', Rev: 1, Len: 168
+311:216  0:000    19. 6EAE4BB8: 'TPM2', 'A M I', Rev: 4, Len: 52
+311:216  0:000    20. 6EAE4BF0: 'BGRT', 'A M I', Rev: 1, Len: 56
+311:216  0:000    21. 6EAE4C28: 'SSDT', 'OptTabl', Rev: 1, Len: 7901
+311:216  0:000    22. 6EAE6B08: 'WSMT', 'A M I', Rev: 1, Len: 40
+311:216  0:000    Tables in Rsdt: 23
+311:216  0:000    0. 6EA97190: 'FACP', 'A M I', Rev: 2, Len: 132
+311:216  0:000        (Dsdt: 6EA97218, Facs: 6F1FD040)
+311:216  0:000        6EA97218: 'DSDT', 'A M I', Rev: 2, Len: 285186
+311:221  0:004        6F1FD040: 'FACS', Ver: 0, Len: 64
+311:221  0:000    1. 6EADCD38: 'APIC', 'A M I', Rev: 4, Len: 244
+311:221  0:000    2. 6EADCE30: 'FPDT', 'A M I', Rev: 1, Len: 68
+311:221  0:000    3. 6EADCE78: 'FIDT', 'A M I', Rev: 1, Len: 156
+311:221  0:000    4. 6EADCF18: 'MCFG', 'A M I', Rev: 1, Len: 60
+311:221  0:000    5. 6EADCF58: 'SSDT', 'SataTabl', Rev: 1, Len: 888
+311:221  0:000    6. 6EADD2D0: 'SSDT', 'CpuSsdt', Rev: 2, Len: 6101
+311:221  0:000    7. 6EADEAA8: 'MSDM', 'A M I', Rev: 3, Len: 85
+311:221  0:000    8. 6EADEB00: 'SSDT', 'SaSsdt', Rev: 2, Len: 6292
+311:221  0:000    9. 6EAE0398: 'SSDT', 'PegSsdt', Rev: 2, Len: 9356
+311:221  0:000    10. 6EAE2828: 'UEFI', 'A M I', Rev: 1, Len: 72
+311:221  0:000    11. 6EAE2870: 'SSDT', 'PerfTune', Rev: 2, Len: 1418
+311:221  0:000    12. 6EAE2E00: 'LPIT', 'A M I', Rev: 1, Len: 92
+311:221  0:000    13. 6EAE2E60: 'SSDT', 'PtidDevc', Rev: 2, Len: 6696
+311:221  0:000    14. 6EAE4888: 'DBGP', 'A M I', Rev: 1, Len: 52
+311:221  0:000    15. 6EAE48C0: 'DBG2', 'A M I', Rev: 0, Len: 84
+311:221  0:000    16. 6EAE4918: 'SSDT', 'ADebTabl', Rev: 2, Len: 324
+311:221  0:000    17. 6EAE4A60: 'SSDT', 'SgPeg', Rev: 2, Len: 174
+311:221  0:000    18. 6EAE4B10: 'DMAR', 'EDK2', Rev: 1, Len: 168
+311:221  0:000    19. 6EAE4BB8: 'TPM2', 'A M I', Rev: 4, Len: 52
+311:221  0:000    20. 6EAE4BF0: 'BGRT', 'A M I', Rev: 1, Len: 56
+311:221  0:000    21. 6EAE4C28: 'SSDT', 'OptTabl', Rev: 1, Len: 7901
+311:221  0:000    22. 6EAE6B08: 'WSMT', 'A M I', Rev: 1, Len: 40
